@@ -2,13 +2,14 @@ import React from "react";
 import "./App.css";
 import Button from "./components/Button";
 import Input from "./components/Input";
+import ClearButton from "./components/ClearButton";
 
 function App() {
   return (
     <div className="App">
       <div className="calc-wrapper">
         <div className="row">
-          <Input> </Input>
+          <Input> sdfsf</Input>
         </div>
         <div className="row">
           <Button>7</Button>
@@ -33,6 +34,9 @@ function App() {
           <Button>0</Button>
           <Button>=</Button>
           <Button>-</Button>
+        </div>
+        <div className="row">
+          <ClearButton />
         </div>
       </div>
     </div>
