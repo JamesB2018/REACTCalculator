@@ -6,7 +6,7 @@ class Input extends Component {
     return !isNaN(val) || val === "." || val === "=";
   };
   render() {
-    return <div className="input" />;
+    return <div className="input">{this.props.children}</div>;
   }
 }
 
